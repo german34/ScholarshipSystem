@@ -1,11 +1,11 @@
 ScholarshipSystem
 =================
 It's a readme!
---------------
++
 This is eloy-chan talking to you from the Terminal! 
 Alice is right next to me! 
 Let's work hard everyone :3
---------------
++
 Time for a real readme
 
 Now that we have class files, if you want to work on them there are options.
