@@ -57,7 +57,7 @@ public class Scholarship
 
 	public boolean isEligible(Student stu)
 	{
-		if (onTime() && isFull() == false && stu.crit==schCriteria) //overloaded = operator for criteria
+		if (onTime() && !isFull() && stu.crit==scholarship_criteria) //overloaded = operator for criteria
 		{
 			return true;
 		}
@@ -103,7 +103,7 @@ public class Scholarship
 
 	public int getTotalNumOfAwardees()
 	{
-		return totalNumbOfAwardees;
+		return totalNumOfAwardees;
 	}
 
 	public String getScholarshipName()
